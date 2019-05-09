@@ -3,5 +3,47 @@
 }
 
 body {
-  background-color: aliceblue;
+    background-image: linear-gradient(to right, #bbdcdd, #b5d4df);
+}
+
+.header {
+    width: 97.5%; height: 200px;
+    background-image: linear-gradient(to bottom, #1c647e, #aebfc5);
+    color: #fff;
+    margin: 1.25%;
+    font-size: 100px;
+}
+
+.title {
+    position: relative; top: 35%;
+    font-size: 5rem;
+    text-align:center;
+}
+
+.body {
+    margin: 1.25%;
+}
+
+.page-list {
+    height: 1000px; width: 25%;
+    font-size: 24px;
+    background: -webkit-radial-gradient(ellipse, #bde5e5, #72bdbf);
+    background: -o-radial-gradient(circle, #bde5e5, #72bdbf);
+    background: -moz-radial-gradient(circle, #bde5e5, #72bdbf);
+    background: radial-gradient(ellipse, #bde5e5, #72bdbf);
+}
+
+.list-title {
+    position: relative; top: 20px;
+    text-align:center;
+}
+
+.menu {
+    position: relative; top: 25px; left: 35px;
+}
+
+.resume {
+    position: relative; left: 1.25%;
+    height: 1000px; width: 73.75%;
+    background-color: #ffffff;
 }
