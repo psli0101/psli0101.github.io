@@ -1,0 +1,188 @@
+.padding {
+	padding: 10px;
+	background-color: #d0dbdf;
+}
+
+.row_line {
+	flex-direction: row;
+	display: flex;
+}
+
+.col_line {
+	flex-direction: column;
+	display: flex;
+}
+
+.logo {
+    position: relative; top: 42.5px;
+    background-color: #0070BC;
+    width: 90%;
+    border:25px #0070BC solid;
+}
+
+.time {
+	background-color: #FFA600; 
+	font-size: 150px;
+	color: white;
+	margin: 15px;
+	flex: 2;
+}
+
+.week {
+  font-size: 50px;
+  position: relative; top: 15px; left: 40px;
+  width: 25%;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.day {
+  font-size: 50px;
+  position: relative; top: 30px; left: 40px;
+  width: 25%;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.sensor_left {
+	background-color: #f2f2f2;
+	color: #afafaf;
+	margin: 15px;
+}
+
+.sensor_right {
+	background-image: linear-gradient(to bottom, #39414f, #a4a4a4);
+	color: #fff;
+    margin: 15px;
+    font-size: 100px;
+}
+
+.powers {
+	background-color: #fcf6eb;
+	color: #5f5f5f;
+	margin: 15px;
+}
+
+.ipcam {
+    height: 350px;
+	background-image: linear-gradient(to bottom, #00a2ff, #ffb900);
+	color: #fff;
+	margin: 15px;
+}
+
+.ipcam-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.sensor_title {
+	position: relative; top: 45px; left: 45px;
+	font-size: 45px;
+	font-weight: lighter;
+	letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.circle {
+	position: relative; bottom: -5px; left: 45px;
+ 	width: 250px;
+  	height: 250px;
+  	border-radius: 50%;
+	margin: 30px;
+  	text-align:center;
+	font-size: 5em;
+}
+
+.temp {
+    position: relative; top: 45px; left: -15px;
+    font-size: 10rem;
+    letter-spacing: -5px;
+    text-align:center;
+}
+
+.temp_unit {
+	position: relative; top: -100px; left: 235px;
+	font-size: 45px;
+	font-weight: lighter;
+}
+
+.hum {
+	position: relative; top: 15px; left: 15px;
+}
+
+.hum-1 {
+  position: relative; top: -170px; left: 30%;
+  font-size: 60px;
+}
+
+.hum-pie {
+	width: 80%;
+	position: relative; left: 20px;
+}
+
+.pm25 {
+	position: relative; top: -75px; left: 30px;
+}
+
+.circle_2 {
+ 	width: 230px;
+  	height: 230px;
+  	border-radius: 50%;
+	margin: 30px;
+  	text-align:center;
+}
+
+.cir_text {
+	padding-top: 50px;
+	font-size: 6rem;
+}
+
+.unit {
+	font-size: 3rem;
+}
+
+.pow_title {
+	position: relative; left: 50px;
+	font-size: 40px;
+	letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.pow_unit {
+	position: relative; bottom: -45px;
+	margin-left: 3px;
+	margin-right: 15px;
+	font-size: 40px;
+	color: black;
+}
+
+.pow_text {
+	padding-top: 2.5px;
+	font-size: 4rem;
+}
+
+.power {
+	position: relative; top: -25px; left: 80px;
+}
+
+.rectangle {
+  	width: 80px;
+  	height: 80px;
+  	border-radius: 20%;
+	margin-top: 20px;
+  	text-align:center;
+	background-color: #dcdcdc;
+}
+
+.lang {
+	position: relative; top: 20px; left: 92.5%;
+	font-size: 25px;
+	opacity: 0.3;
+    text-transform: uppercase;
+}
+
+.lang-buttom {
+    position: relative; top: -1px; right: 7px;
+    width: 50px;
+    opacity: 0.6;
+}
