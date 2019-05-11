@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to right, #fbf9d2, #ffe3a0);
+}
+
+.header {
+    background-image: linear-gradient(to bottom, #ae8013, #f9e4b3);
+}
+
+.beehive {
+    width: 100%;
+    position: relative; top: 10%; left: 25%;
+}
+
+.hex {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: -55px;
+}
+.hex .top {
+    width: 0;
+    border-bottom: 60px solid #ffba15;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+}
+.hex .middle {
+    width: 208px;
+    height: 120px;
+    background: #ffba15;
+}
+.hex .bottom {
+    width: 0;
+    border-top: 60px solid #ffba15;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+}
+.hex-row {
+    clear: left;
+}
+.hex-row.even {
+    margin-left: 106px;
+}
+
