@@ -1,0 +1,5 @@
+.bg {
+    position: relative; top: 200px;
+    width: 30%; height: 500px;
+    background-image: linear-gradient(to right, #ffe3a0, #fbf9d2, #ffe3a0);
+}
