@@ -2,6 +2,11 @@
   font-family: Microsoft JhengHei;
 }
 
+hr {
+    border: 0;
+    box-shadow: 0 0 5px 0.5px black;
+}
+
 body {
     background-image: linear-gradient(to right, #bbdcdd, #b5d4df);
 }
@@ -49,7 +54,8 @@ body {
 }
 
 .resume {
+    margin-bottom: 1.25%;
     position: relative; left: -12.5px;
-    height: 1000px; width: 72.5%;
+    height: 1300px; width: 72.5%;
     background-color: #ffffff;
 }
