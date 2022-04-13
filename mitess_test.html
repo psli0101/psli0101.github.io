@@ -1,0 +1,60 @@
+<html>
+<head>
+</head>
+<body onload="init()">
+    <canvas id="canvas" width="420" height="420">
+        Your Browser doesn't support &ltcanvas&gt
+    </canvas>
+    <script type="application/javascript">
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        var flag = false;
+
+        var ball = {
+                x: 100,
+                y: 100,
+                radius: 25,
+                color: 'blue',
+                draw: function () {
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, true);
+                    ctx.closePath();
+                    ctx.fillStyle = this.color;
+                    ctx.fill();
+                }
+            };
+
+        canvas.addEventListener('mousedown', function (e) {
+            flag = true;
+        });
+        
+        canvas.addEventListener('mouseup', function (e) {
+            flag = false;
+            clear();
+        });
+
+        function init() {
+            
+        }
+
+        function draw(x, y) {
+            ctx.beginPath();
+            ctx.arc(x, y, 10, 0, Math.PI * 2, true);
+            ctx.closePath();
+            ctx.fillStyle = "rgba(1, 1, 1, 0.1)";
+            ctx.fill();
+        }
+
+        function clear() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        canvas.addEventListener('mousemove', function (e) {
+            if (flag) {
+                draw(e.clientX, e.clientY);
+            }
+        });
+    </script>
+</body>
+
+</html>
